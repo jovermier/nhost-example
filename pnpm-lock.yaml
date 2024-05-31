@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.9.9
     version: 3.10.4(@types/react@18.3.3)(graphql@16.8.1)(react-dom@18.3.1)(react@18.3.1)
   '@nhost/nhost-js':
-    specifier: 3.1.4
-    version: 3.1.4(graphql@16.8.1)
+    specifier: 3.1.5
+    version: 3.1.5(graphql@16.8.1)
   autoprefixer:
     specifier: 10.4.15
     version: 10.4.15(postcss@8.4.38)
@@ -336,8 +336,8 @@ packages:
       - encoding
     dev: false
 
-  /@nhost/hasura-auth-js@2.5.1:
-    resolution: {integrity: sha512-QnE9ryf/KOLe96MOYl/VTSpLKh2HMbRp2jpwAsgqSGgiU8CwFjkmyYfeBgj/4PX2xkSlepNmm36+dW0k3bBVpg==}
+  /@nhost/hasura-auth-js@2.5.2:
+    resolution: {integrity: sha512-3O4fIJ8xbdCdKGR/1o5jMczxrLLQ2g6BNp6J9m83COVqg9ka5IXoFuM6pgbX5W7WPe9nIQntvHsfeDynXS+/fg==}
     dependencies:
       '@simplewebauthn/browser': 9.0.1
       fetch-ponyfill: 7.1.0
@@ -359,13 +359,13 @@ packages:
       - encoding
     dev: false
 
-  /@nhost/nhost-js@3.1.4(graphql@16.8.1):
-    resolution: {integrity: sha512-BxIKqqLxgAIBAgSsGiDfOQCUoVEGlAU06Z62DqN05+eTZB77Rk12y4tJ4IgnsVh6coxR3wPEl8budl5IViqbFQ==}
+  /@nhost/nhost-js@3.1.5(graphql@16.8.1):
+    resolution: {integrity: sha512-SgDGQ0APiRPc6RB2Cl1EcvQUsmWFDx32JmgqYBgLKKV9+PBDKc2GJ4GHECbxQi3RoIMXeJ777XJTEK7mGgNL+A==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       '@nhost/graphql-js': 0.3.0(graphql@16.8.1)
-      '@nhost/hasura-auth-js': 2.5.1
+      '@nhost/hasura-auth-js': 2.5.2
       '@nhost/hasura-storage-js': 2.5.1
       graphql: 16.8.1
       isomorphic-unfetch: 3.1.0
